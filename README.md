@@ -1,18 +1,97 @@
-## Getting Started
+# PAC-MAN Game
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple recreation of the iconic PAC-MAN game.
 
-## Folder Structure
+This classic Pac-Man arcade game has been recreated using Java and Swing. The game includes a playable menu, food collection, ghost AI, teleportation, and a save/load system using the Preferences API.
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Features
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Menu with options to start a new game or continue from a saved game  
+- Pac-Man movement using arrow keys or WASD  
+- Ghosts move randomly and chase the player  
+- Food collection and scoring system  
+- Lives and game over screen  
+- Teleporting across map edges  
+- Save and load functionality (position, direction, score, food, lives)  
+- High score tracking  
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+## Technologies Used
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Java (JDK 8+)  
+- Java Swing and AWT for GUI  
+- Java Preferences API for save/load system  
+
+---
+
+## Project Structure
+
+├── App.java                // Main launcher class
+
+├── PACMAN.java            // Main game logic
+
+---
+
+## Requirements to Run
+
+- Java JDK 8 or higher  
+- An IDE like IntelliJ IDEA or Visual Studio Code  
+
+---
+
+## How to Run
+
+1. Clone or download this repository.
+
+2. Make sure the image files (e.g., `wall.png`, `pacmanRight.png`, ghost images) are placed in the correct resource path or same directory as your `.java` files.
+
+3. Open the project in your IDE.
+
+4. Run the `App.java` file.
+
+---
+
+## Save and Load System
+
+The game automatically saves the following data when the window is closed:
+
+- Pac-Man’s position and direction  
+- Current score and remaining lives  
+- Food positions  
+- High score  
+
+This feature enables players to continue their unfinished game later by clicking **CONTINUE** on the main menu.
+
+---
+
+## Interface
+
+![image](https://github.com/user-attachments/assets/4b927089-0fef-47d9-b15b-659870b28a10)
+
+![image](https://github.com/user-attachments/assets/b576fd68-92ac-4129-b0d8-0f98339db1da)
+
+![image](https://github.com/user-attachments/assets/cdd4cc09-4184-422b-89a5-51cc2080ab9c)
+
+---
+
+## Author
+
+**Name:** Farhad Hasan Anik  
+**Email:** farhad.anikh@gmail.com  
+
+---
+
+## License
+
+This project is developed for educational purposes.  
+You are free to use or modify it with proper credit.
+
+---
+
+## Acknowledgements
+
+This project is inspired by the original Pac-Man game.  
+All images and design assets used are for educational purposes only.
