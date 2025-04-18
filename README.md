@@ -29,8 +29,9 @@ This classic Pac-Man arcade game has been recreated using Java and Swing. The ga
 
 ## Project Structure
 
-├── App.java // Main launcher class
-├── PACMAN.java // Main game logic
+├── App.java                     // Main launcher class
+
+├── PACMAN.java                  // Main game logic
 ---
 
 ## Requirements to Run
