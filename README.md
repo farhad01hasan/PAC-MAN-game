@@ -23,7 +23,7 @@ Java Preferences API for save/load system
 
 Project Structure
 
-├── App.java                Main launcher class
+├── App.java                Main launcher class \n
 ├── PACMAN.java             Main game logic
 
 
@@ -52,7 +52,7 @@ High score
 This feature enables us to play our unfinished game later on by clicking CONTINUE on main menu.
 
 
-Interface : 
+Interface : \n
 ![image](https://github.com/user-attachments/assets/4b927089-0fef-47d9-b15b-659870b28a10)
 ![image](https://github.com/user-attachments/assets/b576fd68-92ac-4129-b0d8-0f98339db1da)
 ![image](https://github.com/user-attachments/assets/cdd4cc09-4184-422b-89a5-51cc2080ab9c)
