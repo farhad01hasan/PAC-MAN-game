@@ -1,4 +1,36 @@
+# PAC-MAN Game
 
+A simple recreation of the iconic PAC-MAN game.
+
+This classic Pac-Man arcade game has been recreated using Java and Swing. The game includes a playable menu, food collection, ghost AI, teleportation, and a save/load system using the Preferences API.
+
+---
+
+## Features
+
+- Menu with options to start a new game or continue from a saved game  
+- Pac-Man movement using arrow keys or WASD  
+- Ghosts move randomly and chase the player  
+- Food collection and scoring system  
+- Lives and game over screen  
+- Teleporting across map edges  
+- Save and load functionality (position, direction, score, food, lives)  
+- High score tracking  
+
+---
+
+## Technologies Used
+
+- Java (JDK 8+)  
+- Java Swing and AWT for GUI  
+- Java Preferences API for save/load system  
+
+---
+
+## Project Structure
+
+├── App.java // Main launcher class
+├── PACMAN.java // Main game logic
 ---
 
 ## Requirements to Run
